@@ -22,7 +22,21 @@
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/8kV6ppZUuYs?autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
 
+	<div>
+		Numero di iscritti in piscina * <input type="text" name="num" size="15" required="true" ><br><br>
+		Quota di iscrizione per ciascun iscritto * <input type="text" name="prezzo" size="15" required="true"><br><br>
+		<button onclick="calcolo()">Totale</button><br><br>
+		Totale incassi<input type="text" name="tot" size="15"><br><br>
+	</div>
 
+	<script type="text/javascript">
+		function calcolo()
+		{
+			var a = parse.Integer(document.getElementByName('num')).value;
+			var b = parseFloat(document.getElementByName('prezzo')).value;
+			var risultato = a*b;
+			document.getElementByName('prezzo').value=risultato;
 
+	</script>
 </body>
 </html>

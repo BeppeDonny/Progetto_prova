@@ -1,0 +1,65 @@
+h1 {
+	text-align: center;
+	color: #1368d8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 20px auto;
+
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-table;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: #1368d8;
+}
+
+.passaggio:hover {
+    background-color: white;
+    color: #1368d8;
+    font-size: 10;
+}
+
+.passaggio {
+    color:white;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px auto; 
+    padding: 0px auto;
+    overflow: hidden;
+    background-color: #1368d8;
+}
+
+.horizontal {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px auto; 
+    padding: 0px auto;
+    overflow: hidden;
+    background-color: #1368d8;
+}
+
+.active {
+    background-color: #1368d8;
+}
+
+.iframe
+{
+	width: 560px;
+	margin: 0px auto;
+	padding-top: 30px;
+}

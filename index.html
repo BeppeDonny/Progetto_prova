@@ -32,7 +32,7 @@
 	<script type="text/javascript">
 		function calcolo()
 		{
-			var a = parseInteger(document.getElementByName('num')).value;
+			var a = parseInt(document.getElementByName('num')).value;
 			var b = parseFloat(document.getElementByName('prezzo')).value;
 			var risultato = a*b;
 			document.getElementByName('tot').value=risultato;

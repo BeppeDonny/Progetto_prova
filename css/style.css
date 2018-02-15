@@ -27,23 +27,6 @@ li a:hover {
     color: #1368d8;
 }
 
-.passaggio:hover {
-    background-color: white;
-    color: #1368d8;
-    font-size: 10;
-}
-
-.passaggio {
-    color:white;
-    list-style-type: none;
-    text-align: center;
-    padding-top: 20px;
-    margin: 0px auto; 
-    padding: 0px auto;
-    overflow: hidden;
-    background-color: #1368d8;
-}
-
 .horizontal {
     list-style-type: none;
     text-align: center;
